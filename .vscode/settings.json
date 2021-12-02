@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\spruh\\anaconda3\\envs\\Env_nn\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pycodestyleEnabled": false
+
+
+}

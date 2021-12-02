@@ -1,4 +1,4 @@
-with open('part2.txt', 'r') as pz:
+with open('inputs/Day1.txt', 'r') as pz:
     lines = pz.read().split('\n')
 lines = list(map(int, lines))
 solution = 0

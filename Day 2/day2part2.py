@@ -1,4 +1,4 @@
-with open('Day 2/puzzle.txt', 'r') as pz:
+with open('inputs/Day2.txt', 'r') as pz:
     lines = pz.read().split('\n')
 
 

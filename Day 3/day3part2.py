@@ -42,15 +42,14 @@ def deleteValues(lines, mostCommon, position):
     return newLines
 
 
-co2 = lines
 oxygen = lines
-
 position = 0
 while len(oxygen) > 1:
     mostCommon = findMostCommon(oxygen, position)
     oxygen = deleteValues(oxygen, mostCommon, position)
     position += 1
 
+co2 = lines
 position = 0
 while len(co2) > 1:
     mostUncommon = findMostUncommon(co2, position)
